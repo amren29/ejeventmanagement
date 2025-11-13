@@ -3,7 +3,7 @@ import ScrollAnimation from "@/components/ScrollAnimation";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Our Services - KK Creative Event",
+  title: "Our Services - KKC Event",
   description: "Comprehensive 360° marketing solutions including event management, branding, digital marketing, and creative production across East Malaysia.",
 };
 
@@ -27,17 +27,6 @@ const services = [
     icon: (
       <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-      </svg>
-    ),
-  },
-  {
-    title: "Out-of-home Advertising",
-    link: "/services/out-of-home-advertising",
-    description:
-      "Dominate the outdoor advertising space with strategic billboard placements and eye-catching signage across East Malaysia. Our portfolio includes prime billboard locations throughout Sabah and Sarawak, offering maximum visibility for your brand. We handle everything from creative design and production to installation and maintenance, ensuring your message reaches thousands of potential customers daily. Our services include static billboards, digital LED screens, bus shelters, transit advertising, building wraps, and custom outdoor installations. With our knowledge of high-traffic locations and audience demographics, we help you select the perfect spots to maximize your advertising ROI.",
-    icon: (
-      <svg className="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
     ),
   },

@@ -4,7 +4,7 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Digital Marketing - KK Creative Event",
+  title: "Digital Marketing - KKC Event",
   description: "Data-driven digital marketing services including social media management, SEO, content creation, and paid advertising tailored for East Malaysia.",
 };
 
@@ -97,7 +97,7 @@ export default function DigitalMarketingPage() {
                 helps you reach, engage, and convert customers effectively.
               </p>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
-                At KK Creative Event, we understand the unique digital behavior of
+                At KKC Event, we understand the unique digital behavior of
                 audiences in Sabah, Sarawak, and Labuan. Our strategies are
                 tailored to resonate with local and regional audiences while
                 maintaining professional standards. We leverage the latest digital

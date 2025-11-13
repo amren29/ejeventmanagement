@@ -8,7 +8,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KK Creative Event - 360° Marketing Agency in East Malaysia",
+  title: "KKC Event - 360° Marketing Agency in East Malaysia",
   description: "Creative, strategic, and impactful marketing solutions across Sabah, Sarawak, and Labuan. Event management, branding, digital marketing, and creative production.",
   keywords: "marketing agency, East Malaysia, Sabah, Sarawak, event management, digital marketing, branding, Kota Kinabalu",
 };

@@ -3,7 +3,7 @@ import ScrollAnimation from "./ScrollAnimation";
 const testimonials = [
   {
     quote:
-      "KK Creative Event transformed our product launch into an unforgettable experience. Their attention to detail exceeded expectations.",
+      "KKC Event transformed our product launch into an unforgettable experience. Their attention to detail exceeded expectations.",
     author: "Sarah Lim",
     position: "Marketing Director",
     company: "FMCG Brand",
@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     quote:
-      "Working with KK Creative Event was a game-changer. They delivered a social media campaign that tripled our engagement.",
+      "Working with KKC Event was a game-changer. They delivered a social media campaign that tripled our engagement.",
     author: "Ahmad Rosli",
     position: "CEO",
     company: "Hospitality Group",
@@ -35,7 +35,7 @@ const testimonials = [
   },
   {
     quote:
-      "Professional, reliable, and creative. KK Creative Event made our corporate event seamless and memorable for all attendees.",
+      "Professional, reliable, and creative. KKC Event made our corporate event seamless and memorable for all attendees.",
     author: "Lisa Chen",
     position: "HR Director",
     company: "Tech Company",

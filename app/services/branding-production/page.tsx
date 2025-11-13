@@ -4,8 +4,8 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Branding & Installation - KK Creative Event",
-  description: "Complete branding and installation services including brand identity design, signage fabrication, billboard installation, and display setup across East Malaysia.",
+  title: "Branding & Installation - KKC Event",
+  description: "Complete branding and installation services including brand identity design, signage fabrication, and display setup across East Malaysia.",
 };
 
 const subservices = [
@@ -24,15 +24,6 @@ const subservices = [
     icon: (
       <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Billboard & Hoarding Installation",
-    description: "Complete billboard and hoarding services including design, printing, fabrication, and professional installation across East Malaysia.",
-    icon: (
-      <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
       </svg>
     ),
   },
@@ -97,7 +88,7 @@ export default function BrandingProductionPage() {
                 and visual touchpoints.
               </p>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
-                At KK Creative Event, we handle everything from initial design
+                At KKC Event, we handle everything from initial design
                 concepts to final production and installation. Our comprehensive
                 approach ensures quality, consistency, and attention to detail at
                 every stage. We work with trusted manufacturers and suppliers

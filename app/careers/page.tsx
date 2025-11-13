@@ -1,8 +1,8 @@
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
-  title: "Careers - KK Creative Event",
-  description: "Join our team at KK Creative Event. We're looking for creative and passionate individuals to grow with us.",
+  title: "Careers - KKC Event",
+  description: "Join our team at KKC Event. We're looking for creative and passionate individuals to grow with us.",
 };
 
 export default function CareersPage() {
@@ -50,7 +50,7 @@ export default function CareersPage() {
                 <h2 className="mb-4">We're Hiring!</h2>
 
                 <p className="text-textGray mb-6 text-sm leading-relaxed">
-                  At KK Creative Event, we believe in nurturing talent and creating
+                  At KKC Event, we believe in nurturing talent and creating
                   opportunities for growth. Whether you're a creative designer, event
                   coordinator, digital marketer, or videographer, we'd love to hear
                   from you.
@@ -84,7 +84,7 @@ export default function CareersPage() {
 
                 <p className="text-textGray text-xs">
                   We review all applications and will reach out to qualified
-                  candidates. Thank you for your interest in KK Creative Event!
+                  candidates. Thank you for your interest in KKC Event!
                 </p>
               </div>
             </ScrollAnimation>

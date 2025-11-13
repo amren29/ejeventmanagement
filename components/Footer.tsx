@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Company Name & Tagline */}
           <div className="mb-4">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              KK Creative Event
+              KKC Event
             </h2>
             <p className="text-gray-400 text-sm md:text-base">
               East Malaysia's Premier 360° Marketing Agency
@@ -19,10 +19,10 @@ export default function Footer() {
           {/* Description */}
           <div className="max-w-4xl">
             <p className="text-white text-sm leading-relaxed mb-3">
-              KK Creative Event is East Malaysia's leading 360° marketing agency. We have delivered exceptional results across Sabah, Sarawak, and Labuan since 2018.
+              KKC Event is East Malaysia's leading 360° marketing agency. We have delivered exceptional results across Sabah, Sarawak, and Labuan since 2018.
             </p>
             <p className="text-white text-sm leading-relaxed">
-              Whatever occasion, KK Creative Event is able to provide event management, digital marketing, branding, activations, billboard advertising, social media campaigns, and much more, to bring impact to your next corporate or private events!
+              Whatever occasion, KKC Event is able to provide event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
             </p>
           </div>
         </div>
@@ -132,14 +132,6 @@ export default function Footer() {
                   href="/services"
                   className="text-sm text-gray-400 hover:text-white transition-colors"
                 >
-                  Out-of-home Advertising
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services"
-                  className="text-sm text-gray-400 hover:text-white transition-colors"
-                >
                   Creative Production
                 </Link>
               </li>
@@ -238,7 +230,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-6">
           <p className="text-sm text-gray-400 text-center">
-            © 2025 KK Creative Event. All Rights Reserved. | Since 2018
+            © 2025 KKC Event. All Rights Reserved. | Since 2018
           </p>
         </div>
       </div>

@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!blog) {
     return {
-      title: "Blog Not Found - KK Creative Event",
+      title: "Blog Not Found - KKC Event",
     };
   }
 
   return {
-    title: `${blog.title} - KK Creative Event Blog`,
+    title: `${blog.title} - KKC Event Blog`,
     description: blog.excerpt,
   };
 }

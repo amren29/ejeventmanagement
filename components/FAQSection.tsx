@@ -22,7 +22,7 @@ const faqs = [
   {
     question: "Do you handle both traditional and digital marketing?",
     answer:
-      "Yes! As a 360° marketing agency, we seamlessly integrate traditional methods (events, outdoor advertising, print) with digital strategies (social media, SEO, online campaigns) for maximum impact.",
+      "Yes! As a 360° marketing agency, we seamlessly integrate traditional methods (events, branding, print) with digital strategies (social media, SEO, online campaigns) for maximum impact.",
   },
   {
     question: "What industries do you work with?",

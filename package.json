@@ -1,7 +1,7 @@
 {
   "name": "kkcreativevent",
   "version": "1.0.0",
-  "description": "KK Creative Event - 360° Marketing Agency",
+  "description": "KKC Event - 360° Marketing Agency",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

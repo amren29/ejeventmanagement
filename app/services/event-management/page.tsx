@@ -4,7 +4,7 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Event Management - KK Creative Event",
+  title: "Event Management - KKC Event",
   description: "Professional event management and activations across East Malaysia. From product launches to large-scale festivals.",
 };
 

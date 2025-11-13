@@ -40,24 +40,6 @@ const allProjects = [
     image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop",
   },
   {
-    title: "Billboard Campaign",
-    category: "Out-of-home Advertising",
-    description: "Strategic billboard placements across prime locations in Kota Kinabalu",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-  },
-  {
-    title: "LED Display Campaign",
-    category: "Out-of-home Advertising",
-    description: "Dynamic LED advertising campaign across major shopping malls",
-    image: "https://images.unsplash.com/photo-1551801841-ecad875a5142?w=600&h=400&fit=crop",
-  },
-  {
-    title: "Transit Advertising",
-    category: "Out-of-home Advertising",
-    description: "Bus and taxi advertising campaign reaching city-wide audience",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&h=400&fit=crop",
-  },
-  {
     title: "Digital Marketing Campaign",
     category: "Digital Marketing",
     description: "Comprehensive social media campaign driving 300% engagement increase",

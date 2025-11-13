@@ -24,7 +24,7 @@ export default function AboutSection() {
           {/* Content Side */}
           <ScrollAnimation animation="fade-in-right">
             <div>
-              <h2 className="mb-4 text-2xl md:text-3xl">KK Creative Event</h2>
+              <h2 className="mb-4 text-2xl md:text-3xl">KKC Event</h2>
               <div className="w-16 h-1 bg-accent mb-4"></div>
 
               <p className="text-textGray mb-3 leading-relaxed text-sm">

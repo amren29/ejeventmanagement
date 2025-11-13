@@ -6,8 +6,8 @@ import OurProcess from "@/components/OurProcess";
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
-  title: "About Us - KK Creative Event",
-  description: "Learn about KK Creative Event, a leading 360° marketing agency in East Malaysia since 2018.",
+  title: "About Us - KKC Event",
+  description: "Learn about KKC Event, a leading 360° marketing agency in East Malaysia since 2018.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="container-custom">
           <ScrollAnimation>
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="mb-4">About KK Creative Event</h1>
+              <h1 className="mb-4">About KKC Event</h1>
               <div className="w-16 h-1 bg-accent mx-auto"></div>
             </div>
           </ScrollAnimation>
@@ -31,7 +31,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto">
             <ScrollAnimation>
               <p className="text-textGray leading-relaxed mb-4">
-                Founded in 2018, KK Creative Event has been at the forefront of
+                Founded in 2018, KKC Event has been at the forefront of
                 delivering creative, strategic, and impactful marketing
                 solutions across East Malaysia. Based in Kota Kinabalu, Sabah,
                 we've built our reputation on understanding the unique landscape

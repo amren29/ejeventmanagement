@@ -17,12 +17,6 @@ const projects = [
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
   },
   {
-    title: "Billboard Campaign",
-    category: "Outdoor Advertising",
-    description: "Strategic billboard placements across prime locations in Kota Kinabalu",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-  },
-  {
     title: "Corporate Branding",
     category: "Branding Production",
     description: "Complete brand identity and installation for hospitality group",
@@ -45,7 +39,7 @@ const projects = [
 export default function ProjectsSection() {
   const [filter, setFilter] = useState("All");
 
-  const categories = ["All", "Event Management", "Digital Marketing", "Outdoor Advertising", "Branding Production", "Creative Production"];
+  const categories = ["All", "Event Management", "Digital Marketing", "Branding Production", "Creative Production"];
 
   const filteredProjects = filter === "All"
     ? projects
