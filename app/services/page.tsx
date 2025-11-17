@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Our Services - Pentas Wijaya",
-  description: "Comprehensive event management and marketing solutions including event planning, branding, digital marketing, and creative production across Malaysia.",
+  description: "Comprehensive 360° marketing solutions including event management, branding, digital marketing, creative production, and activations across Malaysia.",
 };
 
 const services = [
@@ -75,7 +75,7 @@ export default function ServicesPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="mb-4">Our Services</h1>
               <p className="text-textGray">
-                Comprehensive event management and marketing solutions designed for Malaysia's
+                Comprehensive 360° marketing solutions designed for Malaysia's
                 dynamic market.
               </p>
               <div className="w-16 h-1 bg-accent mx-auto mt-4"></div>

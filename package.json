@@ -1,7 +1,7 @@
 {
   "name": "pentaswijaya",
   "version": "1.0.0",
-  "description": "Pentas Wijaya - Premier Event Management & Marketing Agency",
+  "description": "Pentas Wijaya - 360° Marketing Agency",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

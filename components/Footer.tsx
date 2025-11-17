@@ -12,17 +12,17 @@ export default function Footer() {
               Pentas Wijaya
             </h2>
             <p className="text-gray-400 text-sm md:text-base">
-              Premier Event Management & Marketing Agency
+              360° Marketing Agency
             </p>
           </div>
 
           {/* Description */}
           <div className="max-w-4xl">
             <p className="text-white text-sm leading-relaxed mb-3">
-              Pentas Wijaya is a premier event management and marketing agency delivering exceptional results across Malaysia.
+              Pentas Wijaya is Malaysia's premier 360° marketing agency delivering exceptional results across all marketing channels.
             </p>
             <p className="text-white text-sm leading-relaxed">
-              Whatever occasion, Pentas Wijaya provides comprehensive event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
+              Whatever occasion, Pentas Wijaya provides comprehensive 360° marketing solutions including event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
             </p>
           </div>
         </div>

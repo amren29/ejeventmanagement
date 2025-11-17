@@ -8,9 +8,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pentas Wijaya - Premier Event Management & Marketing Agency",
-  description: "Premier event management and marketing solutions in Malaysia. Specializing in event planning, corporate events, digital marketing, branding, and creative production.",
-  keywords: "event management, marketing agency, Malaysia, event planning, corporate events, digital marketing, branding, Pentas Wijaya",
+  title: "Pentas Wijaya - 360° Marketing Agency in Malaysia",
+  description: "Malaysia's premier 360° marketing agency. Comprehensive solutions including event management, digital marketing, branding, activations, creative production, and more.",
+  keywords: "360 marketing agency, marketing agency, Malaysia, event management, digital marketing, branding, activations, creative production, Pentas Wijaya",
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
   title: "About Us - Pentas Wijaya",
-  description: "Learn about Pentas Wijaya, a premier event management and marketing agency in Malaysia.",
+  description: "Learn about Pentas Wijaya, Malaysia's premier 360° marketing agency delivering comprehensive marketing solutions.",
 };
 
 export default function AboutPage() {
@@ -32,30 +32,30 @@ export default function AboutPage() {
             <ScrollAnimation>
               <p className="text-textGray leading-relaxed mb-4">
                 Pentas Wijaya is at the forefront of delivering creative,
-                strategic, and impactful event management and marketing
-                solutions across Malaysia. We've built our reputation on
-                understanding the unique needs of our clients and crafting
-                campaigns and events that truly resonate with audiences.
+                strategic, and impactful 360° marketing solutions across
+                Malaysia. We've built our reputation on understanding the unique
+                needs of our clients and crafting comprehensive campaigns that
+                truly resonate across all marketing channels.
               </p>
             </ScrollAnimation>
 
             <ScrollAnimation delay={100}>
               <p className="text-textGray leading-relaxed mb-4">
-                As a premier event management and marketing agency, we excel at
-                creating memorable experiences. Whether you're launching a new
+                As a full-service 360° marketing agency, we bridge traditional
+                and digital marketing seamlessly. Whether you're launching a new
                 product, building brand awareness, or creating unforgettable
-                events, our team brings together strategic thinking, creative
-                excellence, and flawless execution.
+                experiences, our team brings together strategic thinking,
+                creative excellence, and flawless execution across all
+                touchpoints.
               </p>
             </ScrollAnimation>
 
             <ScrollAnimation delay={200}>
               <p className="text-textGray leading-relaxed mb-4">
-                From intimate corporate gatherings to large-scale events, from
-                digital campaigns to comprehensive brand activations — we handle
-                it all. Our comprehensive approach means you get a single,
-                trusted partner for all your event and marketing needs across
-                Malaysia.
+                From intimate corporate events to large-scale activations, from
+                digital campaigns to comprehensive brand installations — we
+                handle it all. Our 360° approach means you get a single, trusted
+                partner for all your marketing needs across Malaysia.
               </p>
             </ScrollAnimation>
 

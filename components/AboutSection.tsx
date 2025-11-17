@@ -28,24 +28,24 @@ export default function AboutSection() {
               <div className="w-16 h-1 bg-accent mb-4"></div>
 
               <p className="text-textGray mb-3 leading-relaxed text-sm">
-                We deliver creative, strategic, and impactful event management
-                and marketing solutions across Malaysia. Our team understands
-                the unique needs of our clients and crafts campaigns and events
-                that truly resonate.
+                We deliver creative, strategic, and impactful 360° marketing
+                solutions across Malaysia. Our team understands the unique needs
+                of our clients and crafts comprehensive campaigns that truly
+                resonate across all marketing channels.
               </p>
 
               <p className="text-textGray mb-5 leading-relaxed text-sm">
-                As a premier event management and marketing agency, we
-                specialize in creating memorable experiences — from intimate
-                corporate gatherings to large-scale events, from digital
-                campaigns to comprehensive brand activations.
+                As a premier 360° marketing agency, we specialize in delivering
+                end-to-end solutions — from event management and digital
+                marketing to branding, activations, and creative production. We
+                bridge traditional and digital marketing seamlessly.
               </p>
 
               <div className="mb-6">
-                <h3 className="mb-2 text-lg">Excellence in Every Event</h3>
+                <h3 className="mb-2 text-lg">Creative. Strategic. Impactful.</h3>
                 <p className="text-textGray text-xs">
                   This is more than our tagline — it's our commitment to every
-                  project we undertake across Malaysia.
+                  360° marketing project we undertake across Malaysia.
                 </p>
               </div>
 

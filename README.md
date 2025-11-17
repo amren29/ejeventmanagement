@@ -1,10 +1,10 @@
 # Pentas Wijaya Website
 
-A modern, responsive website for **Pentas Wijaya** - a premier event management and marketing agency in Malaysia.
+A modern, responsive website for **Pentas Wijaya** - Malaysia's premier 360° marketing agency.
 
 ## About
 
-Pentas Wijaya is a premier event management and marketing agency delivering creative, strategic, and impactful solutions across Malaysia.
+Pentas Wijaya is Malaysia's premier 360° marketing agency delivering creative, strategic, and impactful solutions across all marketing channels.
 
 ## Features
 

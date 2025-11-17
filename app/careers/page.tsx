@@ -2,7 +2,7 @@ import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
   title: "Careers - Pentas Wijaya",
-  description: "Join our team at Pentas Wijaya. We're looking for creative and passionate individuals to grow with us.",
+  description: "Join our team at Pentas Wijaya, Malaysia's premier 360° marketing agency. We're looking for creative and passionate individuals to grow with us.",
 };
 
 export default function CareersPage() {
@@ -15,7 +15,7 @@ export default function CareersPage() {
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="mb-4">Join Our Team</h1>
               <p className="text-textGray text-base">
-                Be part of Malaysia's premier event management and marketing agency. We're
+                Be part of Malaysia's premier 360° marketing agency. We're
                 always looking for talented and passionate individuals to join our
                 creative team.
               </p>
