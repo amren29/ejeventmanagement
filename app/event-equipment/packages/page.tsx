@@ -292,7 +292,7 @@ export default function EventEquipmentPackagesPage() {
 
           {/* Additional Info */}
           <ScrollAnimation delay={300}>
-            <div className="mt-12 text-center">
+            <div className="mt-16 text-center">
               <div className="bg-secondary p-8 rounded-lg max-w-3xl mx-auto">
                 <h3 className="text-xl font-bold mb-3">Need a Custom Package?</h3>
                 <p className="text-textGray mb-4">
