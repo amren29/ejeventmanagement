@@ -4,14 +4,14 @@ import GlobalCTA from "@/components/GlobalCTA";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Event Support Services & Rentals - KKC Event",
-  description: "Comprehensive event support services including KOLs, event talent, equipment rental, printing, and installation across East Malaysia.",
+  title: "Event Support Services & Rentals - Pentas Wijaya",
+  description: "Comprehensive event support services including KOLs, event talent, equipment rental, printing, and installation across Malaysia.",
 };
 
 const subservices = [
   {
     title: "KOLs & Influencer Network",
-    description: "Access our extensive network of trusted Key Opinion Leaders and influencers across East Malaysia for authentic brand collaborations.",
+    description: "Access our extensive network of trusted Key Opinion Leaders and influencers across Malaysia for authentic brand collaborations.",
     icon: (
       <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -59,7 +59,7 @@ const subservices = [
   },
   {
     title: "Installation Services",
-    description: "Professional installation services for signage, displays, banners, and branding materials across Sabah, Sarawak, and Labuan.",
+    description: "Professional installation services for signage, displays, banners, and branding materials across Malaysia.",
     icon: (
       <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -104,7 +104,7 @@ export default function AdditionalServicesPage() {
                 event and marketing needs.
               </p>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
-                Our extensive network across East Malaysia includes trusted
+                Our extensive network across Malaysia includes trusted
                 partners, influencers, talent, and service providers who have been
                 carefully vetted to meet our quality standards. Whether you need
                 specialized equipment, professional talent, or technical services,
@@ -114,8 +114,7 @@ export default function AdditionalServicesPage() {
               <p className="text-textGray leading-relaxed text-sm">
                 Think of us as your one-stop solution: from KOLs and influencers to
                 event equipment, printing services, and professional installation —
-                whatever your project requires, we've got you covered across Sabah,
-                Sarawak, and Labuan.
+                whatever your project requires, we've got you covered across Malaysia.
               </p>
             </ScrollAnimation>
           </div>

@@ -1,7 +1,7 @@
 {
-  "name": "kkcreativevent",
+  "name": "pentaswijaya",
   "version": "1.0.0",
-  "description": "KKC Event - 360° Marketing Agency",
+  "description": "Pentas Wijaya - Premier Event Management & Marketing Agency",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

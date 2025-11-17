@@ -24,28 +24,28 @@ export default function AboutSection() {
           {/* Content Side */}
           <ScrollAnimation animation="fade-in-right">
             <div>
-              <h2 className="mb-4 text-2xl md:text-3xl">KKC Event</h2>
+              <h2 className="mb-4 text-2xl md:text-3xl">Pentas Wijaya</h2>
               <div className="w-16 h-1 bg-accent mb-4"></div>
 
               <p className="text-textGray mb-3 leading-relaxed text-sm">
-                Since 2018, we've been delivering creative, strategic, and
-                impactful marketing solutions across East Malaysia. Based in Kota
-                Kinabalu, Sabah, we understand the unique landscape of our region
-                and craft campaigns that truly resonate.
+                We deliver creative, strategic, and impactful event management
+                and marketing solutions across Malaysia. Our team understands
+                the unique needs of our clients and crafts campaigns and events
+                that truly resonate.
               </p>
 
               <p className="text-textGray mb-5 leading-relaxed text-sm">
-                As a full-service 360° marketing agency, we bridge traditional
-                and digital marketing — from intimate corporate events to
-                large-scale activations, from billboard campaigns to viral social
-                media content.
+                As a premier event management and marketing agency, we
+                specialize in creating memorable experiences — from intimate
+                corporate gatherings to large-scale events, from digital
+                campaigns to comprehensive brand activations.
               </p>
 
               <div className="mb-6">
-                <h3 className="mb-2 text-lg">Creative. Strategic. Impactful.</h3>
+                <h3 className="mb-2 text-lg">Excellence in Every Event</h3>
                 <p className="text-textGray text-xs">
                   This is more than our tagline — it's our commitment to every
-                  project we undertake across Sabah, Sarawak, and Labuan.
+                  project we undertake across Malaysia.
                 </p>
               </div>
 

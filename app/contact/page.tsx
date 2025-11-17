@@ -42,7 +42,7 @@ export default function ContactPage() {
               <h1 className="mb-4">Let's Bring Your Ideas to Life</h1>
               <p className="text-textGray">
                 Reach out to our team and discover how we can elevate your brand
-                across East Malaysia.
+                and events across Malaysia.
               </p>
               <div className="w-16 h-1 bg-accent mx-auto mt-4"></div>
             </div>
@@ -85,9 +85,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-accent mb-1 text-base">Location</p>
                     <p className="text-textGray text-sm">
-                      Kota Kinabalu, Sabah
-                      <br />
-                      East Malaysia
+                      Malaysia
                     </p>
                   </div>
                 </div>
@@ -111,10 +109,10 @@ export default function ContactPage() {
                   <div>
                     <p className="font-semibold text-accent mb-1 text-base">Email</p>
                     <a
-                      href="mailto:hello@kkcreativeevent.my"
+                      href="mailto:info@pentaswijaya.com"
                       className="text-textGray hover:text-accent transition-colors text-sm"
                     >
-                      hello@kkcreativeevent.my
+                      info@pentaswijaya.com
                     </a>
                   </div>
                 </div>

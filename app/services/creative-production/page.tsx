@@ -4,8 +4,8 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Creative Production - KKC Event",
-  description: "Professional creative production services including videography, photography, graphic design, exhibition booth design, and content creation across East Malaysia.",
+  title: "Creative Production - Pentas Wijaya",
+  description: "Professional creative production services including videography, photography, graphic design, exhibition booth design, and content creation across Malaysia.",
 };
 
 const subservices = [
@@ -109,7 +109,7 @@ export default function CreativeProductionPage() {
                 audience.
               </p>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
-                At KKC Event, our in-house team of creative professionals
+                At Pentas Wijaya, our in-house team of creative professionals
                 combines artistic vision with strategic thinking to produce content
                 that not only looks stunning but also serves your marketing
                 objectives. We handle projects of all scales — from quick social
@@ -119,7 +119,7 @@ export default function CreativeProductionPage() {
               <p className="text-textGray leading-relaxed text-sm">
                 Our creative approach blends local cultural insights with
                 international production standards, ensuring your content resonates
-                with East Malaysian audiences while maintaining professional quality
+                with Malaysian audiences while maintaining professional quality
                 that stands out in any market.
               </p>
             </ScrollAnimation>

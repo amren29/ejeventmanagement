@@ -4,8 +4,8 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Event Management - KKC Event",
-  description: "Professional event management and activations across East Malaysia. From product launches to large-scale festivals.",
+  title: "Event Management - Pentas Wijaya",
+  description: "Professional event management and activations across Malaysia. From product launches to large-scale festivals.",
 };
 
 const subservices = [
@@ -94,7 +94,7 @@ export default function EventManagementPage() {
               <h1 className="mb-4">Event Management & Activations</h1>
               <p className="text-textGray max-w-2xl mx-auto">
                 From brand launches to nationwide roadshows — we handle every
-                detail seamlessly across Sabah, Sarawak, and Labuan.
+                detail seamlessly across Malaysia.
               </p>
               <div className="w-16 h-1 bg-accent mx-auto mt-4"></div>
             </div>
@@ -110,8 +110,7 @@ export default function EventManagementPage() {
               <h2 className="mb-6 text-center">What is Event Management?</h2>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
                 Event management is the comprehensive planning, coordination, and
-                execution of events that create meaningful brand experiences. At KK
-                Creative Event, we specialize in transforming your objectives into
+                execution of events that create meaningful brand experiences. At Pentas Wijaya, we specialize in transforming your objectives into
                 memorable occasions that engage audiences and deliver measurable
                 results.
               </p>
@@ -123,8 +122,7 @@ export default function EventManagementPage() {
                 more — so you can focus on connecting with your audience.
               </p>
               <p className="text-textGray leading-relaxed text-sm">
-                With our extensive network and deep understanding of the East
-                Malaysian market, we deliver events that not only meet but exceed
+                With our extensive network and deep understanding of the Malaysian market, we deliver events that not only meet but exceed
                 expectations, whether you're launching a product, celebrating a
                 milestone, or creating brand awareness.
               </p>

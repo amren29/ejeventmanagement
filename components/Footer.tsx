@@ -9,20 +9,20 @@ export default function Footer() {
           {/* Company Name & Tagline */}
           <div className="mb-4">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              KKC Event
+              Pentas Wijaya
             </h2>
             <p className="text-gray-400 text-sm md:text-base">
-              East Malaysia's Premier 360° Marketing Agency
+              Premier Event Management & Marketing Agency
             </p>
           </div>
 
           {/* Description */}
           <div className="max-w-4xl">
             <p className="text-white text-sm leading-relaxed mb-3">
-              KKC Event is East Malaysia's leading 360° marketing agency. We have delivered exceptional results across Sabah, Sarawak, and Labuan since 2018.
+              Pentas Wijaya is a premier event management and marketing agency delivering exceptional results across Malaysia.
             </p>
             <p className="text-white text-sm leading-relaxed">
-              Whatever occasion, KKC Event is able to provide event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
+              Whatever occasion, Pentas Wijaya provides comprehensive event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
             </p>
           </div>
         </div>
@@ -72,14 +72,6 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-3 text-sm text-white">Quick Links</h4>
             <ul className="space-y-2">
-              <li>
-                <Link
-                  href="/media"
-                  className="text-sm text-gray-400 hover:text-white transition-colors"
-                >
-                  Browse Media
-                </Link>
-              </li>
               <li>
                 <Link
                   href="/event-equipment"
@@ -160,10 +152,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:hello@kkcreativeevent.my"
+                  href="mailto:info@pentaswijaya.com"
                   className="text-sm text-gray-400 hover:text-white transition-colors"
                 >
-                  hello@kkcreativeevent.my
+                  info@pentaswijaya.com
                 </a>
               </li>
               <li>
@@ -175,7 +167,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="text-sm text-gray-400">
-                Kota Kinabalu, Sabah
+                Malaysia
               </li>
             </ul>
           </div>
@@ -230,7 +222,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-6">
           <p className="text-sm text-gray-400 text-center">
-            © 2025 KKC Event. All Rights Reserved. | Since 2018
+            © 2025 Pentas Wijaya. All Rights Reserved.
           </p>
         </div>
       </div>

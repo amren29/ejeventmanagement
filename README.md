@@ -1,10 +1,10 @@
-# KK Creative Event Website
+# Pentas Wijaya Website
 
-A modern, responsive website for **KK Creative Event** - a 360° marketing agency based in East Malaysia.
+A modern, responsive website for **Pentas Wijaya** - a premier event management and marketing agency in Malaysia.
 
 ## About
 
-KK Creative Event is a full-service marketing agency delivering creative, strategic, and impactful solutions across Sabah, Sarawak, and Labuan since 2018.
+Pentas Wijaya is a premier event management and marketing agency delivering creative, strategic, and impactful solutions across Malaysia.
 
 ## Features
 
@@ -114,10 +114,10 @@ colors: {
 
 ## Contact Information
 
-- **Email**: hello@kkcreativeevent.com
-- **Phone**: +60 XXX XXX XXXX
-- **Location**: Kota Kinabalu, Sabah, East Malaysia
+- **Email**: info@pentaswijaya.com
+- **Phone**: +60 18-902 3676
+- **Location**: Malaysia
 
 ## License
 
-© 2025 KK Creative Event. All Rights Reserved.
+© 2025 Pentas Wijaya. All Rights Reserved.

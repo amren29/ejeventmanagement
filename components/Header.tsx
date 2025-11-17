@@ -23,7 +23,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="text-xl font-bold text-accent">
-              KKC Event
+              Pentas Wijaya
             </div>
           </Link>
 

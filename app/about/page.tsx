@@ -6,8 +6,8 @@ import OurProcess from "@/components/OurProcess";
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
-  title: "About Us - KKC Event",
-  description: "Learn about KKC Event, a leading 360° marketing agency in East Malaysia since 2018.",
+  title: "About Us - Pentas Wijaya",
+  description: "Learn about Pentas Wijaya, a premier event management and marketing agency in Malaysia.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="container-custom">
           <ScrollAnimation>
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="mb-4">About KKC Event</h1>
+              <h1 className="mb-4">About Pentas Wijaya</h1>
               <div className="w-16 h-1 bg-accent mx-auto"></div>
             </div>
           </ScrollAnimation>
@@ -31,32 +31,31 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto">
             <ScrollAnimation>
               <p className="text-textGray leading-relaxed mb-4">
-                Founded in 2018, KKC Event has been at the forefront of
-                delivering creative, strategic, and impactful marketing
-                solutions across East Malaysia. Based in Kota Kinabalu, Sabah,
-                we've built our reputation on understanding the unique landscape
-                of the East Malaysian market and crafting campaigns that truly
-                resonate with local and regional audiences.
+                Pentas Wijaya is at the forefront of delivering creative,
+                strategic, and impactful event management and marketing
+                solutions across Malaysia. We've built our reputation on
+                understanding the unique needs of our clients and crafting
+                campaigns and events that truly resonate with audiences.
               </p>
             </ScrollAnimation>
 
             <ScrollAnimation delay={100}>
               <p className="text-textGray leading-relaxed mb-4">
-                As a full-service 360° marketing agency, we bridge the gap
-                between traditional and digital marketing. Whether you're
-                launching a new product, building brand awareness, or creating
-                unforgettable experiences, our team brings together strategic
-                thinking, creative excellence, and flawless execution.
+                As a premier event management and marketing agency, we excel at
+                creating memorable experiences. Whether you're launching a new
+                product, building brand awareness, or creating unforgettable
+                events, our team brings together strategic thinking, creative
+                excellence, and flawless execution.
               </p>
             </ScrollAnimation>
 
             <ScrollAnimation delay={200}>
               <p className="text-textGray leading-relaxed mb-4">
-                From intimate corporate events to large-scale activations, from
-                billboard campaigns to viral social media content — we handle it
-                all. Our comprehensive approach means you get a single, trusted
-                partner for all your marketing needs across Sabah, Sarawak, and
-                Labuan.
+                From intimate corporate gatherings to large-scale events, from
+                digital campaigns to comprehensive brand activations — we handle
+                it all. Our comprehensive approach means you get a single,
+                trusted partner for all your event and marketing needs across
+                Malaysia.
               </p>
             </ScrollAnimation>
 
