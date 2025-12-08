@@ -6,8 +6,8 @@ import OurProcess from "@/components/OurProcess";
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
-  title: "About Us - Pentas Wijaya",
-  description: "Learn about Pentas Wijaya, Malaysia's premier 360° marketing agency delivering comprehensive marketing solutions.",
+  title: "About Us - EJ Event Management",
+  description: "Learn about EJ Event Management, Malaysia's trusted event management company delivering comprehensive marketing solutions.",
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
         <div className="container-custom">
           <ScrollAnimation>
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="mb-4">About Pentas Wijaya</h1>
+              <h1 className="mb-4">About EJ Event Management</h1>
               <div className="w-16 h-1 bg-accent mx-auto"></div>
             </div>
           </ScrollAnimation>
@@ -31,8 +31,8 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto">
             <ScrollAnimation>
               <p className="text-textGray leading-relaxed mb-4">
-                Pentas Wijaya is at the forefront of delivering creative,
-                strategic, and impactful 360° marketing solutions across
+                EJ Event Management is at the forefront of delivering creative,
+                strategic, and impactful event solutions across
                 Malaysia. We've built our reputation on understanding the unique
                 needs of our clients and crafting comprehensive campaigns that
                 truly resonate across all marketing channels.

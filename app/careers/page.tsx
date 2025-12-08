@@ -1,8 +1,8 @@
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 export const metadata = {
-  title: "Careers - Pentas Wijaya",
-  description: "Join our team at Pentas Wijaya, Malaysia's premier 360° marketing agency. We're looking for creative and passionate individuals to grow with us.",
+  title: "Careers - EJ Event Management",
+  description: "Join our team at EJ Event Management, Malaysia's trusted event management company. We're looking for creative and passionate individuals to grow with us.",
 };
 
 export default function CareersPage() {
@@ -50,7 +50,7 @@ export default function CareersPage() {
                 <h2 className="mb-4">We're Hiring!</h2>
 
                 <p className="text-textGray mb-6 text-sm leading-relaxed">
-                  At Pentas Wijaya, we believe in nurturing talent and creating
+                  At EJ Event Management, we believe in nurturing talent and creating
                   opportunities for growth. Whether you're a creative designer, event
                   coordinator, digital marketer, or videographer, we'd love to hear
                   from you.
@@ -62,7 +62,7 @@ export default function CareersPage() {
                     Interested in joining our team? Send your resume and portfolio to:
                   </p>
                   <a
-                    href="mailto:careers@pentaswijaya.com"
+                    href="mailto:careers@ejeventmanagement.com"
                     className="text-accent hover:text-gray-800 transition-colors font-semibold text-base inline-flex items-center gap-2"
                   >
                     <svg
@@ -78,13 +78,13 @@ export default function CareersPage() {
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-                    careers@pentaswijaya.com
+                    careers@ejeventmanagement.com
                   </a>
                 </div>
 
                 <p className="text-textGray text-xs">
                   We review all applications and will reach out to qualified
-                  candidates. Thank you for your interest in Pentas Wijaya!
+                  candidates. Thank you for your interest in EJ Event Management!
                 </p>
               </div>
             </ScrollAnimation>

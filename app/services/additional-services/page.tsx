@@ -4,7 +4,7 @@ import GlobalCTA from "@/components/GlobalCTA";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Event Support Services & Rentals - Pentas Wijaya",
+  title: "Event Support Services & Rentals - EJ Event Management",
   description: "Comprehensive event support services including KOLs, event talent, equipment rental, printing, and installation across Malaysia.",
 };
 

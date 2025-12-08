@@ -4,7 +4,7 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Event Management - Pentas Wijaya",
+  title: "Event Management - EJ Event Management",
   description: "Professional event management and activations across Malaysia. From product launches to large-scale festivals.",
 };
 
@@ -110,7 +110,7 @@ export default function EventManagementPage() {
               <h2 className="mb-6 text-center">What is Event Management?</h2>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
                 Event management is the comprehensive planning, coordination, and
-                execution of events that create meaningful brand experiences. At Pentas Wijaya, we specialize in transforming your objectives into
+                execution of events that create meaningful brand experiences. At EJ Event Management, we specialize in transforming your objectives into
                 memorable occasions that engage audiences and deliver measurable
                 results.
               </p>

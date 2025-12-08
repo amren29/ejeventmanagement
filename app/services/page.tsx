@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Our Services - Pentas Wijaya",
-  description: "Comprehensive 360° marketing solutions including event management, branding, digital marketing, creative production, and activations across Malaysia.",
+  title: "Our Services - EJ Event Management",
+  description: "Comprehensive event management solutions including event management, branding, digital marketing, creative production, and activations across Malaysia.",
 };
 
 const services = [
@@ -76,9 +76,8 @@ export default function ServicesPage() {
                 delay={100}
               >
                 <div
-                  className={`flex flex-col ${
-                    index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                  } gap-8 items-center`}
+                  className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                    } gap-8 items-center`}
                 >
                   <div className="flex-1">
                     <div className="relative h-80 rounded-lg overflow-hidden shadow-lg">

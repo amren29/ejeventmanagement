@@ -3,7 +3,7 @@ import ScrollAnimation from "./ScrollAnimation";
 const testimonials = [
   {
     quote:
-      "Pentas Wijaya transformed our product launch into an unforgettable experience. Their attention to detail exceeded expectations.",
+      "EJ Event Management transformed our product launch into an unforgettable experience. Their attention to detail exceeded expectations.",
     author: "Sarah Lim",
     position: "Marketing Director",
     company: "FMCG Brand",
@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     quote:
-      "Working with Pentas Wijaya was a game-changer. They delivered a social media campaign that tripled our engagement.",
+      "Working with EJ Event Management was a game-changer. They delivered a social media campaign that tripled our engagement.",
     author: "Ahmad Rosli",
     position: "CEO",
     company: "Hospitality Group",
@@ -35,7 +35,7 @@ const testimonials = [
   },
   {
     quote:
-      "Professional, reliable, and creative. Pentas Wijaya made our corporate event seamless and memorable for all attendees.",
+      "Professional, reliable, and creative. EJ Event Management made our corporate event seamless and memorable for all attendees.",
     author: "Lisa Chen",
     position: "HR Director",
     company: "Tech Company",

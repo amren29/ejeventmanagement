@@ -9,20 +9,20 @@ export default function Footer() {
           {/* Company Name & Tagline */}
           <div className="mb-4">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
-              Pentas Wijaya
+              EJ Event Management
             </h2>
             <p className="text-gray-400 text-sm md:text-base">
-              360° Marketing Agency
+              Your Trusted Event Partner
             </p>
           </div>
 
           {/* Description */}
           <div className="max-w-4xl">
             <p className="text-white text-sm leading-relaxed mb-3">
-              Pentas Wijaya is Malaysia's premier 360° marketing agency delivering exceptional results across all marketing channels.
+              EJ Event Management is Malaysia's trusted event management company delivering exceptional results across all marketing channels.
             </p>
             <p className="text-white text-sm leading-relaxed">
-              Whatever occasion, Pentas Wijaya provides comprehensive 360° marketing solutions including event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
+              Whatever occasion, EJ Event Management provides comprehensive event solutions including event management, digital marketing, branding, activations, social media campaigns, and much more, to bring impact to your next corporate or private events!
             </p>
           </div>
         </div>
@@ -152,10 +152,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:info@pentaswijaya.com"
+                  href="mailto:info@ejeventmanagement.com"
                   className="text-sm text-gray-400 hover:text-white transition-colors"
                 >
-                  info@pentaswijaya.com
+                  info@ejeventmanagement.com
                 </a>
               </li>
               <li>
@@ -222,7 +222,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-6">
           <p className="text-sm text-gray-400 text-center">
-            © 2025 Pentas Wijaya. All Rights Reserved.
+            © 2025 EJ Event Management. All Rights Reserved.
           </p>
         </div>
       </div>

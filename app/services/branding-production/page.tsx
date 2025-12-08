@@ -4,7 +4,7 @@ import ServiceProjects from "@/components/ServiceProjects";
 import GlobalCTA from "@/components/GlobalCTA";
 
 export const metadata = {
-  title: "Branding & Installation - Pentas Wijaya",
+  title: "Branding & Installation - EJ Event Management",
   description: "Complete branding and installation services including brand identity design, signage fabrication, and display setup across Malaysia.",
 };
 
@@ -88,7 +88,7 @@ export default function BrandingProductionPage() {
                 and visual touchpoints.
               </p>
               <p className="text-textGray leading-relaxed mb-4 text-sm">
-                At Pentas Wijaya, we handle everything from initial design
+                At EJ Event Management, we handle everything from initial design
                 concepts to final production and installation. Our comprehensive
                 approach ensures quality, consistency, and attention to detail at
                 every stage. We work with trusted manufacturers and suppliers

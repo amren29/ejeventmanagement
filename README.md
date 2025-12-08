@@ -1,17 +1,17 @@
-# Pentas Wijaya Website
+# EJ Event Management Website
 
-A modern, responsive website for **Pentas Wijaya** - Malaysia's premier 360° marketing agency.
+A modern, responsive website for **EJ Event Management** - Malaysia's trusted event management company.
 
 ## About
 
-Pentas Wijaya is Malaysia's premier 360° marketing agency delivering creative, strategic, and impactful solutions across all marketing channels.
+EJ Event Management is Malaysia's trusted event management company delivering creative, strategic, and impactful solutions across all marketing channels.
 
 ## Features
 
 - **Modern Design**: Clean, minimal white and black theme
 - **Fully Responsive**: Optimized for all devices (mobile, tablet, desktop)
 - **SEO Optimized**: Meta tags and semantic HTML for better search visibility
-- **Fast Performance**: Built with Next.js 15 for optimal speed
+- **Fast Performance**: Built with Next.js 16 for optimal speed
 - **Interactive Components**: Hero slider, FAQ accordion, auto-scrolling client logos
 - **Contact Form**: Easy-to-use contact form for client inquiries
 
@@ -24,7 +24,7 @@ Pentas Wijaya is Malaysia's premier 360° marketing agency delivering creative, 
 
 ## Tech Stack
 
-- **Framework**: Next.js 15 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Font**: Inter (Google Fonts)
@@ -57,52 +57,6 @@ npm run build
 npm start
 ```
 
-## Project Structure
-
-```
-├── app/
-│   ├── about/
-│   │   └── page.tsx
-│   ├── services/
-│   │   └── page.tsx
-│   ├── contact/
-│   │   └── page.tsx
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── globals.css
-├── components/
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   ├── GlobalCTA.tsx
-│   ├── HeroSlider.tsx
-│   ├── ServicesOverview.tsx
-│   ├── ClientsSection.tsx
-│   └── FAQSection.tsx
-└── public/
-```
-
-## Customization
-
-### Colors
-
-Edit the color theme in `tailwind.config.ts`:
-
-```typescript
-colors: {
-  primary: "#FFFFFF",
-  accent: "#000000",
-  secondary: "#F5F5F5",
-  textGray: "#333333",
-}
-```
-
-### Content
-
-- **Company Information**: Update in `components/Footer.tsx`
-- **Services**: Modify in `app/services/page.tsx`
-- **FAQ**: Edit in `components/FAQSection.tsx`
-- **Hero Images**: Change URLs in `components/HeroSlider.tsx`
-
 ## Services Offered
 
 1. Event Management & Activations
@@ -114,10 +68,10 @@ colors: {
 
 ## Contact Information
 
-- **Email**: info@pentaswijaya.com
+- **Email**: info@ejeventmanagement.com
 - **Phone**: +60 18-902 3676
 - **Location**: Malaysia
 
 ## License
 
-© 2025 Pentas Wijaya. All Rights Reserved.
+© 2025 EJ Event Management. All Rights Reserved.

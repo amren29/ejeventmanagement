@@ -1,7 +1,7 @@
 {
-  "name": "pentaswijaya",
+  "name": "ejeventmanagement",
   "version": "1.0.0",
-  "description": "Pentas Wijaya - 360° Marketing Agency",
+  "description": "EJ Event Management - Your Trusted Event Partner",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

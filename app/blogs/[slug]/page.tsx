@@ -16,12 +16,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
   if (!blog) {
     return {
-      title: "Blog Not Found - Pentas Wijaya",
+      title: "Blog Not Found - EJ Event Management",
     };
   }
 
   return {
-    title: `${blog.title} - Pentas Wijaya Blog`,
+    title: `${blog.title} - EJ Event Management Blog`,
     description: blog.excerpt,
   };
 }
