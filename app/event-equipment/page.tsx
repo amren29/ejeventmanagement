@@ -6,250 +6,242 @@ import Image from "next/image";
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 const equipmentInventory = [
-  // Canopy
+  // Audio Visual Equipment
   {
     id: 1,
-    name: "Standard White Canopy",
-    type: "Canopy",
-    size: "10ft x 10ft",
-    capacity: "8-10 people",
-    price: "RM 150/day",
-    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&h=600&fit=crop",
+    name: "PA System",
+    type: "Audio Visual",
+    description: "Professional public address system for events of all sizes",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop",
   },
   {
     id: 2,
-    name: "Large Event Canopy",
-    type: "Canopy",
-    size: "20ft x 20ft",
-    capacity: "30-40 people",
-    price: "RM 400/day",
-    image: "https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800&h=600&fit=crop",
+    name: "Microphones (Wireless / Lapel / Headset)",
+    type: "Audio Visual",
+    description: "Various microphone types for speakers and performers",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&h=600&fit=crop",
   },
   {
     id: 3,
-    name: "Premium Marquee Tent",
-    type: "Canopy",
-    size: "40ft x 60ft",
-    capacity: "200+ people",
-    price: "RM 2,500/day",
-    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&h=600&fit=crop",
+    name: "Audio Mixer",
+    type: "Audio Visual",
+    description: "Professional audio mixing console for sound control",
+    image: "https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=800&h=600&fit=crop",
   },
   {
     id: 4,
-    name: "Gazebo Canopy",
-    type: "Canopy",
-    size: "12ft x 12ft",
-    capacity: "10-15 people",
-    price: "RM 200/day",
-    image: "https://images.unsplash.com/photo-1530221568434-ee716d54fa78?w=800&h=600&fit=crop",
+    name: "LED Screen",
+    type: "Audio Visual",
+    description: "High-resolution LED display screens for visual presentations",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
   },
-
-  // Chairs
   {
     id: 5,
-    name: "Plastic Banquet Chair",
-    type: "Chair",
-    size: "Standard size",
-    capacity: "Per unit",
-    price: "RM 5/day",
-    image: "https://images.unsplash.com/photo-1503602642458-232111445657?w=800&h=600&fit=crop",
+    name: "TV",
+    type: "Audio Visual",
+    description: "Flat screen TV for presentations and displays",
+    image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&h=600&fit=crop",
   },
   {
     id: 6,
-    name: "Chiavari Chair (Gold/Silver)",
-    type: "Chair",
-    size: "Premium style",
-    capacity: "Per unit",
-    price: "RM 12/day",
-    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
+    name: "Vertical TV",
+    type: "Audio Visual",
+    description: "Portrait-oriented display for signage and digital menus",
+    image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=800&h=600&fit=crop",
   },
   {
     id: 7,
-    name: "Folding Chair with Cushion",
-    type: "Chair",
-    size: "Padded comfort",
-    capacity: "Per unit",
-    price: "RM 8/day",
-    image: "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&h=600&fit=crop",
-  },
-  {
-    id: 8,
-    name: "VIP Lounge Chair",
-    type: "Chair",
-    size: "Luxury seating",
-    capacity: "Per unit",
-    price: "RM 25/day",
-    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
+    name: "Projector",
+    type: "Audio Visual",
+    description: "High-brightness projector for presentations and visuals",
+    image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=600&fit=crop",
   },
 
-  // Tables
+  // Lighting & Effects
+  {
+    id: 8,
+    name: "Lighting System",
+    type: "Lighting & Effects",
+    description: "Complete event lighting system for any venue",
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
+  },
   {
     id: 9,
-    name: "Round Banquet Table",
-    type: "Table",
-    size: "5ft diameter",
-    capacity: "8-10 seats",
-    price: "RM 35/day",
-    image: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=800&h=600&fit=crop",
+    name: "Moving Head & Moving Wash Lights",
+    type: "Lighting & Effects",
+    description: "Dynamic intelligent lighting for stages and events",
+    image: "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800&h=600&fit=crop",
   },
   {
     id: 10,
-    name: "Rectangular Conference Table",
-    type: "Table",
-    size: "6ft x 3ft",
-    capacity: "6-8 seats",
-    price: "RM 30/day",
-    image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&h=600&fit=crop",
+    name: "Facelight",
+    type: "Lighting & Effects",
+    description: "Front lighting to illuminate speakers and performers",
+    image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop",
   },
   {
     id: 11,
-    name: "Cocktail High Table",
-    type: "Table",
-    size: "3ft diameter",
-    capacity: "Standing 4-6",
-    price: "RM 25/day",
-    image: "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&h=600&fit=crop",
+    name: "Follow Spot Light",
+    type: "Lighting & Effects",
+    description: "Spotlight that follows performers on stage",
+    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=600&fit=crop",
   },
   {
     id: 12,
-    name: "Registration Counter Table",
-    type: "Table",
-    size: "8ft x 2.5ft",
-    capacity: "Registration use",
-    price: "RM 40/day",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&h=600&fit=crop",
+    name: "Decorative Lighting",
+    type: "Lighting & Effects",
+    description: "Fairy lights, uplights, and ambient lighting for decor",
+    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&h=600&fit=crop",
   },
-
-  // Stage
   {
     id: 13,
-    name: "Small Modular Stage",
-    type: "Stage",
-    size: "8ft x 8ft",
-    capacity: "Small events",
-    price: "RM 300/day",
-    image: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop",
+    name: "Smoke Machine",
+    type: "Lighting & Effects",
+    description: "Haze and smoke effects for dramatic atmosphere",
+    image: "https://images.unsplash.com/photo-1504509546545-e000b4a62425?w=800&h=600&fit=crop",
   },
+
+  // Stage & Structure
   {
     id: 14,
-    name: "Medium Stage Platform",
-    type: "Stage",
-    size: "16ft x 12ft",
-    capacity: "Medium events",
-    price: "RM 600/day",
+    name: "Event Stage",
+    type: "Stage & Structure",
+    description: "Modular stage platforms for performances and presentations",
     image: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&h=600&fit=crop",
   },
   {
     id: 15,
-    name: "Large Event Stage",
-    type: "Stage",
-    size: "24ft x 20ft",
-    capacity: "Large events",
-    price: "RM 1,200/day",
-    image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&h=600&fit=crop",
+    name: "Truss System",
+    type: "Stage & Structure",
+    description: "Aluminium truss for lighting rigs and stage structures",
+    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
   },
   {
     id: 16,
-    name: "Complete Stage Setup with Backdrop",
-    type: "Stage",
-    size: "20ft x 16ft + backdrop",
-    capacity: "Corporate events",
-    price: "RM 1,800/day",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
+    name: "Rostrum / Podium",
+    type: "Stage & Structure",
+    description: "Speaker podium for speeches and formal events",
+    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&h=600&fit=crop",
   },
-
-  // LED Screen
   {
     id: 17,
-    name: "Indoor LED Screen",
-    type: "LED Screen",
-    size: "6ft x 4ft",
-    capacity: "Small to medium venue",
-    price: "RM 800/day",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+    name: "Backdrop System",
+    type: "Stage & Structure",
+    description: "Customizable backdrop frames and panels for branding",
+    image: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop",
   },
   {
     id: 18,
-    name: "Outdoor LED Screen",
-    type: "LED Screen",
-    size: "10ft x 8ft",
-    capacity: "Large outdoor events",
-    price: "RM 1,500/day",
-    image: "https://images.unsplash.com/photo-1496024840928-4c417adf211d?w=800&h=600&fit=crop",
+    name: "Carpet & Flooring",
+    type: "Stage & Structure",
+    description: "Event carpeting and flooring solutions for any surface",
+    image: "https://images.unsplash.com/photo-1504652517000-ae1068c4237f?w=800&h=600&fit=crop",
   },
+
+  // Furniture Rental
   {
     id: 19,
-    name: "Premium HD LED Wall",
-    type: "LED Screen",
-    size: "16ft x 10ft",
-    capacity: "Concert/festival",
-    price: "RM 3,000/day",
-    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=600&fit=crop",
+    name: "Tables & Chairs",
+    type: "Furniture",
+    description: "Standard event tables and chairs for all occasions",
+    image: "https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=800&h=600&fit=crop",
   },
   {
     id: 20,
-    name: "Mobile LED Screen Truck",
-    type: "LED Screen",
-    size: "12ft x 8ft (mobile)",
-    capacity: "Roadshow/activation",
-    price: "RM 2,500/day",
-    image: "https://images.unsplash.com/photo-1531190260877-c8d11eb5afaf?w=800&h=600&fit=crop",
+    name: "VIP Sofa",
+    type: "Furniture",
+    description: "Premium lounge seating for VIP areas and guests",
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop",
   },
-
-  // Sound and Light
   {
     id: 21,
-    name: "Basic Sound System",
-    type: "Sound and Light",
-    size: "2 speakers + mixer",
-    capacity: "50-100 people",
-    price: "RM 350/day",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop",
+    name: "Cocktail Tables",
+    type: "Furniture",
+    description: "High tables for networking events and cocktail receptions",
+    image: "https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&h=600&fit=crop",
   },
   {
     id: 22,
-    name: "Professional PA System",
-    type: "Sound and Light",
-    size: "4 speakers + subwoofer",
-    capacity: "200-500 people",
-    price: "RM 800/day",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    name: "Banquet Chairs",
+    type: "Furniture",
+    description: "Elegant chairs for formal dinners and banquets",
+    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&h=600&fit=crop",
   },
+
+  // Tent & Outdoor Setup
   {
     id: 23,
-    name: "Concert Sound System",
-    type: "Sound and Light",
-    size: "Line array + full setup",
-    capacity: "1000+ people",
-    price: "RM 3,500/day",
-    image: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=800&h=600&fit=crop",
+    name: "Canopy",
+    type: "Tent & Outdoor",
+    description: "Weather-proof canopy tents for outdoor events",
+    image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&h=600&fit=crop",
   },
   {
     id: 24,
-    name: "Basic Lighting Package",
-    type: "Sound and Light",
-    size: "LED PAR lights (8pcs)",
-    capacity: "Small events",
-    price: "RM 400/day",
-    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
+    name: "Marquee Tent",
+    type: "Tent & Outdoor",
+    description: "Large marquee tents for grand outdoor celebrations",
+    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&h=600&fit=crop",
   },
   {
     id: 25,
-    name: "Professional Stage Lighting",
-    type: "Sound and Light",
-    size: "Moving heads + effects",
-    capacity: "Medium to large events",
-    price: "RM 1,200/day",
-    image: "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800&h=600&fit=crop",
+    name: "Industrial Fan",
+    type: "Tent & Outdoor",
+    description: "High-powered fans for ventilation at outdoor events",
+    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=600&fit=crop",
   },
   {
     id: 26,
-    name: "Complete Sound & Light Setup",
-    type: "Sound and Light",
-    size: "Full production package",
-    capacity: "Large scale events",
-    price: "RM 5,000/day",
-    image: "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=800&h=600&fit=crop",
+    name: "Cooler Fan",
+    type: "Tent & Outdoor",
+    description: "Portable cooling fans for guest comfort",
+    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+  },
+
+  // Power Supply
+  {
+    id: 27,
+    name: "Power Point & Wiring",
+    type: "Power Supply",
+    description: "Electrical distribution and power point setup for events",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+  },
+  {
+    id: 28,
+    name: "Generator Set",
+    type: "Power Supply",
+    description: "Portable generators for outdoor and remote event locations",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop",
+  },
+
+  // Event Add-Ons
+  {
+    id: 29,
+    name: "Event Decoration",
+    type: "Event Add-Ons",
+    description: "Custom decorations including balloons, flowers, and themed setups",
+    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop",
+  },
+  {
+    id: 30,
+    name: "Photobooth",
+    type: "Event Add-Ons",
+    description: "Interactive photo booth with props and instant prints",
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
+  },
+  {
+    id: 31,
+    name: "Cue Pole",
+    type: "Event Add-Ons",
+    description: "Queue management poles and rope barriers for crowd control",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop",
+  },
+  {
+    id: 32,
+    name: "Red Carpet Setup",
+    type: "Event Add-Ons",
+    description: "Red carpet with stanchions for VIP entrances and events",
+    image: "https://images.unsplash.com/photo-1504652517000-ae1068c4237f?w=800&h=600&fit=crop",
   },
 ];
 
@@ -259,12 +251,13 @@ export default function EventEquipmentPage() {
 
   const equipmentTypes = [
     "All",
-    "Canopy",
-    "Chair",
-    "Table",
-    "Stage",
-    "LED Screen",
-    "Sound and Light",
+    "Audio Visual",
+    "Lighting & Effects",
+    "Stage & Structure",
+    "Furniture",
+    "Tent & Outdoor",
+    "Power Supply",
+    "Event Add-Ons",
   ];
 
   const filteredEquipment = equipmentInventory.filter((item) => {
@@ -395,44 +388,10 @@ export default function EventEquipmentPage() {
                     <h3 className="font-bold text-sm mb-2 text-accent group-hover:text-gray-900 transition-colors">
                       {item.name}
                     </h3>
-                    <div className="space-y-1 mb-3">
-                      <p className="text-xs text-textGray flex items-center">
-                        <svg
-                          className="w-3 h-3 mr-1"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
-                          />
-                        </svg>
-                        {item.size}
-                      </p>
-                      <p className="text-xs text-textGray flex items-center">
-                        <svg
-                          className="w-3 h-3 mr-1"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                          />
-                        </svg>
-                        {item.capacity}
-                      </p>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-accent font-bold text-sm">
-                        {item.price}
-                      </span>
+                    <p className="text-xs text-textGray mb-3">
+                      {item.description}
+                    </p>
+                    <div className="flex items-center justify-end">
                       <Link
                         href="/contact"
                         className="text-xs bg-accent text-white px-3 py-1.5 rounded hover:bg-gray-800 transition-colors"

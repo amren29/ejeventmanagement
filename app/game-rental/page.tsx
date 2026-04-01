@@ -6,232 +6,68 @@ import Image from "next/image";
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 const gameInventory = [
-  // Arcade Games
   {
     id: 1,
     name: "Claw Machine",
-    type: "Arcade Games",
-    size: "Standard size",
-    capacity: "1 player",
-    price: "RM 400/day",
+    type: "Arcade & Vending",
+    description: "Classic claw crane game — a crowd favourite at any event",
     image: "https://images.unsplash.com/photo-1599687267812-35c05ff70ee9?w=800&h=600&fit=crop",
   },
   {
     id: 2,
-    name: "Air Hockey Table",
-    type: "Arcade Games",
-    size: "6ft x 3ft",
-    capacity: "2 players",
-    price: "RM 350/day",
-    image: "https://images.unsplash.com/photo-1534158914592-062992fbe900?w=800&h=600&fit=crop",
-  },
-  {
-    id: 3,
-    name: "Basketball Arcade",
-    type: "Arcade Games",
-    size: "Standard arcade size",
-    capacity: "1-2 players",
-    price: "RM 450/day",
-    image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=600&fit=crop",
-  },
-  {
-    id: 4,
-    name: "Racing Simulator",
-    type: "Arcade Games",
-    size: "Racing seat + screen",
-    capacity: "1 player",
-    price: "RM 600/day",
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop",
-  },
-
-  // Carnival Games
-  {
-    id: 5,
-    name: "Ring Toss Game",
-    type: "Carnival Games",
-    size: "Portable booth",
-    capacity: "Multiple players",
-    price: "RM 200/day",
-    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=800&h=600&fit=crop",
-  },
-  {
-    id: 6,
-    name: "Bean Bag Toss",
-    type: "Carnival Games",
-    size: "Foldable boards",
-    capacity: "2-4 players",
-    price: "RM 150/day",
-    image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
-  },
-  {
-    id: 7,
-    name: "Giant Jenga",
-    type: "Carnival Games",
-    size: "4ft tall blocks",
-    capacity: "2+ players",
-    price: "RM 180/day",
-    image: "https://images.unsplash.com/photo-1632501641765-e568d28b0015?w=800&h=600&fit=crop",
-  },
-  {
-    id: 8,
-    name: "Balloon Dart Board",
-    type: "Carnival Games",
-    size: "Wall-mounted board",
-    capacity: "Multiple players",
-    price: "RM 250/day",
-    image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=600&fit=crop",
-  },
-
-  // Sports Games
-  {
-    id: 9,
-    name: "Foosball Table",
-    type: "Sports Games",
-    size: "5ft x 3ft",
-    capacity: "2-4 players",
-    price: "RM 300/day",
-    image: "https://images.unsplash.com/photo-1599430389289-ccae1c4cf24d?w=800&h=600&fit=crop",
-  },
-  {
-    id: 10,
-    name: "Pool Table",
-    type: "Sports Games",
-    size: "7ft standard",
-    capacity: "2 players",
-    price: "RM 500/day",
-    image: "https://images.unsplash.com/photo-1604472315034-110569c2f26d?w=800&h=600&fit=crop",
-  },
-  {
-    id: 11,
-    name: "Table Tennis Set",
-    type: "Sports Games",
-    size: "Full size table",
-    capacity: "2-4 players",
-    price: "RM 350/day",
-    image: "https://images.unsplash.com/photo-1534158914592-062992fbe900?w=800&h=600&fit=crop",
-  },
-  {
-    id: 12,
-    name: "Mini Golf Set",
-    type: "Sports Games",
-    size: "9-hole course",
-    capacity: "Multiple players",
-    price: "RM 800/day",
-    image: "https://images.unsplash.com/photo-1530028828-25e8270793c5?w=800&h=600&fit=crop",
-  },
-
-  // Interactive Games
-  {
-    id: 13,
-    name: "VR Gaming Station",
-    type: "Interactive Games",
-    size: "VR headset + controllers",
-    capacity: "1 player",
-    price: "RM 700/day",
-    image: "https://images.unsplash.com/photo-1617802690658-1173a812650d?w=800&h=600&fit=crop",
-  },
-  {
-    id: 14,
-    name: "Gaming Console Setup (PS5/Xbox)",
-    type: "Interactive Games",
-    size: "Console + TV + controllers",
-    capacity: "1-4 players",
-    price: "RM 400/day",
-    image: "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?w=800&h=600&fit=crop",
-  },
-  {
-    id: 15,
-    name: "Dance Machine",
-    type: "Interactive Games",
-    size: "Dance pad + screen",
-    capacity: "1-2 players",
-    price: "RM 550/day",
-    image: "https://images.unsplash.com/photo-1574701148212-8518049c7b2c?w=800&h=600&fit=crop",
-  },
-  {
-    id: 16,
-    name: "Photo Booth with Props",
-    type: "Interactive Games",
-    size: "Booth + camera + printer",
-    capacity: "Multiple users",
-    price: "RM 600/day",
-    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
-  },
-
-  // Bouncy & Inflatable
-  {
-    id: 17,
-    name: "Inflatable Bouncy Castle",
-    type: "Bouncy & Inflatable",
-    size: "15ft x 15ft",
-    capacity: "5-8 kids",
-    price: "RM 500/day",
+    name: "Gashapon",
+    type: "Arcade & Vending",
+    description: "Capsule toy vending machine for fun collectible prizes",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
   },
   {
-    id: 18,
-    name: "Obstacle Course Inflatable",
-    type: "Bouncy & Inflatable",
-    size: "30ft x 12ft",
-    capacity: "Multiple participants",
-    price: "RM 1,200/day",
-    image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=800&h=600&fit=crop",
+    id: 3,
+    name: "Candy Floss Machine",
+    type: "Food & Beverage",
+    description: "Fresh cotton candy machine for sweet treats at your event",
+    image: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=800&h=600&fit=crop",
   },
   {
-    id: 19,
-    name: "Inflatable Slide",
-    type: "Bouncy & Inflatable",
-    size: "20ft height",
-    capacity: "1 at a time",
-    price: "RM 800/day",
-    image: "https://images.unsplash.com/photo-1512850183-6d7990f42385?w=800&h=600&fit=crop",
+    id: 4,
+    name: "Popcorn Machine",
+    type: "Food & Beverage",
+    description: "Classic popcorn maker for a carnival-style experience",
+    image: "https://images.unsplash.com/photo-1585647347483-22b66260dfff?w=800&h=600&fit=crop",
   },
   {
-    id: 20,
-    name: "Bubble Soccer Set",
-    type: "Bouncy & Inflatable",
-    size: "6-10 bubble suits",
-    capacity: "6-10 players",
-    price: "RM 900/day",
-    image: "https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800&h=600&fit=crop",
-  },
-
-  // Board & Party Games
-  {
-    id: 21,
-    name: "Giant Chess Set",
-    type: "Board & Party Games",
-    size: "3ft pieces",
-    capacity: "2 players",
-    price: "RM 250/day",
-    image: "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=800&h=600&fit=crop",
+    id: 5,
+    name: "Ice Cream Machine",
+    type: "Food & Beverage",
+    description: "Soft serve ice cream machine for refreshing desserts",
+    image: "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=800&h=600&fit=crop",
   },
   {
-    id: 22,
-    name: "Giant Connect Four",
-    type: "Board & Party Games",
-    size: "4ft tall",
-    capacity: "2 players",
-    price: "RM 200/day",
-    image: "https://images.unsplash.com/photo-1611371805429-8b5c1b2c34ba?w=800&h=600&fit=crop",
+    id: 6,
+    name: "Instant Photobooth",
+    type: "Interactive",
+    description: "Instant photo printing booth with props and backdrops",
+    image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
   },
   {
-    id: 23,
-    name: "Karaoke System",
-    type: "Board & Party Games",
-    size: "Screen + microphones",
-    capacity: "Multiple singers",
-    price: "RM 450/day",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=600&fit=crop",
+    id: 7,
+    name: "Wheel of Fortune",
+    type: "Carnival Games",
+    description: "Spin-the-wheel game for lucky draws and prize giveaways",
+    image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&h=600&fit=crop",
   },
   {
-    id: 24,
-    name: "Board Games Package",
-    type: "Board & Party Games",
-    size: "10+ popular games",
-    capacity: "Various",
-    price: "RM 150/day",
-    image: "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=800&h=600&fit=crop",
+    id: 8,
+    name: "Catch Stick Game",
+    type: "Carnival Games",
+    description: "Fun skill-based game where players catch falling sticks for prizes",
+    image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=800&h=600&fit=crop",
+  },
+  {
+    id: 9,
+    name: "Plinko Game",
+    type: "Carnival Games",
+    description: "Drop-the-disc game with exciting prize slots at the bottom",
+    image: "https://images.unsplash.com/photo-1511882150382-421056c89033?w=800&h=600&fit=crop",
   },
 ];
 
@@ -241,12 +77,10 @@ export default function GameRentalPage() {
 
   const gameTypes = [
     "All",
-    "Arcade Games",
+    "Arcade & Vending",
+    "Food & Beverage",
     "Carnival Games",
-    "Sports Games",
-    "Interactive Games",
-    "Bouncy & Inflatable",
-    "Board & Party Games",
+    "Interactive",
   ];
 
   const filteredGames = gameInventory.filter((item) => {
@@ -377,44 +211,10 @@ export default function GameRentalPage() {
                     <h3 className="font-bold text-sm mb-2 text-accent group-hover:text-gray-900 transition-colors">
                       {item.name}
                     </h3>
-                    <div className="space-y-1 mb-3">
-                      <p className="text-xs text-textGray flex items-center">
-                        <svg
-                          className="w-3 h-3 mr-1"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
-                          />
-                        </svg>
-                        {item.size}
-                      </p>
-                      <p className="text-xs text-textGray flex items-center">
-                        <svg
-                          className="w-3 h-3 mr-1"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                          />
-                        </svg>
-                        {item.capacity}
-                      </p>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-accent font-bold text-sm">
-                        {item.price}
-                      </span>
+                    <p className="text-xs text-textGray mb-3">
+                      {item.description}
+                    </p>
+                    <div className="flex items-center justify-end">
                       <Link
                         href="/contact"
                         className="text-xs bg-accent text-white px-3 py-1.5 rounded hover:bg-gray-800 transition-colors"
