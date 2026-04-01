@@ -262,7 +262,7 @@ export default function GameRentalPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Kids Party Package: Bouncy castle + carnival games</span>
+                    <span>Carnival Package: Claw machine + games + photobooth</span>
                   </li>
                   <li className="flex items-start text-sm">
                     <svg
@@ -278,7 +278,7 @@ export default function GameRentalPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Corporate Package: VR + arcade + sports games</span>
+                    <span>Food Fun Package: Candy floss + popcorn + ice cream</span>
                   </li>
                   <li className="flex items-start text-sm">
                     <svg
@@ -294,7 +294,7 @@ export default function GameRentalPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Festival Package: Multiple stations and games</span>
+                    <span>Festival Package: All games + food machines</span>
                   </li>
                   <li className="flex items-start text-sm">
                     <svg

@@ -62,47 +62,32 @@ const packages = [
 
 const gameCategories = [
   {
+    category: "Arcade & Vending",
+    games: [
+      "Claw Machine",
+      "Gashapon",
+    ],
+  },
+  {
+    category: "Food & Beverage",
+    games: [
+      "Candy Floss Machine",
+      "Popcorn Machine",
+      "Ice Cream Machine",
+    ],
+  },
+  {
     category: "Carnival Games",
     games: [
-      "Ring Toss",
-      "Balloon Darts",
-      "Basketball Shoot",
-      "Can Knockdown",
-      "Bean Bag Toss",
-      "Duck Pond",
+      "Wheel of Fortune",
+      "Catch Stick Game",
+      "Plinko Game",
     ],
   },
   {
-    category: "Interactive Games",
+    category: "Interactive",
     games: [
-      "Giant Jenga",
-      "Giant Connect Four",
-      "Foosball Table",
-      "Air Hockey",
-      "Table Tennis",
-      "Arcade Machines",
-    ],
-  },
-  {
-    category: "Inflatable Games",
-    games: [
-      "Bouncy Castle",
-      "Obstacle Course",
-      "Inflatable Slide",
-      "Gladiator Arena",
-      "Bungee Run",
-      "Mechanical Bull",
-    ],
-  },
-  {
-    category: "Tech Games",
-    games: [
-      "VR Gaming Stations",
-      "Racing Simulators",
-      "PlayStation/Xbox Setup",
-      "Nintendo Switch Stations",
-      "Motion Sensor Games",
-      "Interactive Projection Games",
+      "Instant Photobooth",
     ],
   },
 ];

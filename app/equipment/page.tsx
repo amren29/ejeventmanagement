@@ -5,316 +5,66 @@ import Link from "next/link";
 import ScrollAnimation from "@/components/ScrollAnimation";
 
 const equipmentInventory = [
-  // Interactive Games
+  // Arcade & Vending
   {
     id: 1,
-    name: "Giant Jenga",
-    category: "Interactive Games",
-    capacity: "2-6 players",
-    setupTime: "15 minutes",
-    price: "RM 150/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Classic stacking game in giant size",
+    name: "Claw Machine",
+    category: "Arcade & Vending",
+    description: "Classic claw crane game — a crowd favourite at any event",
   },
   {
     id: 2,
-    name: "Giant Connect Four",
-    category: "Interactive Games",
-    capacity: "2 players",
-    setupTime: "10 minutes",
-    price: "RM 120/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Oversized version of the classic game",
+    name: "Gashapon",
+    category: "Arcade & Vending",
+    description: "Capsule toy vending machine for fun collectible prizes",
   },
+
+  // Food & Beverage
   {
     id: 3,
-    name: "Cornhole Toss Game",
-    category: "Interactive Games",
-    capacity: "2-4 players",
-    setupTime: "10 minutes",
-    price: "RM 100/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Bean bag toss game set with boards",
+    name: "Candy Floss Machine",
+    category: "Food & Beverage",
+    description: "Fresh cotton candy machine for sweet treats at your event",
   },
   {
     id: 4,
-    name: "Ring Toss Game",
-    category: "Interactive Games",
-    capacity: "Unlimited",
-    setupTime: "5 minutes",
-    price: "RM 80/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Classic carnival ring toss",
+    name: "Popcorn Machine",
+    category: "Food & Beverage",
+    description: "Classic popcorn maker for a carnival-style experience",
   },
   {
     id: 5,
-    name: "Giant Tic Tac Toe",
-    category: "Interactive Games",
-    capacity: "2 players",
-    setupTime: "5 minutes",
-    price: "RM 90/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Oversized tic tac toe board",
+    name: "Ice Cream Machine",
+    category: "Food & Beverage",
+    description: "Soft serve ice cream machine for refreshing desserts",
   },
 
-  // Arcade Games
+  // Interactive
   {
     id: 6,
-    name: "Air Hockey Table",
-    category: "Arcade Games",
-    capacity: "2 players",
-    setupTime: "20 minutes",
-    price: "RM 300/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Professional air hockey table",
+    name: "Instant Photobooth",
+    category: "Interactive",
+    description: "Instant photo printing booth with props and backdrops",
   },
+
+  // Carnival Games
   {
     id: 7,
-    name: "Foosball Table",
-    category: "Arcade Games",
-    capacity: "2-4 players",
-    setupTime: "15 minutes",
-    price: "RM 250/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Tournament-grade foosball table",
+    name: "Wheel of Fortune",
+    category: "Carnival Games",
+    description: "Spin-the-wheel game for lucky draws and prize giveaways",
   },
   {
     id: 8,
-    name: "Arcade Basketball",
-    category: "Arcade Games",
-    capacity: "1-2 players",
-    setupTime: "30 minutes",
-    price: "RM 400/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Electronic basketball shooting game",
+    name: "Catch Stick Game",
+    category: "Carnival Games",
+    description: "Fun skill-based game where players catch falling sticks for prizes",
   },
   {
     id: 9,
-    name: "Pinball Machine",
-    category: "Arcade Games",
-    capacity: "1 player",
-    setupTime: "25 minutes",
-    price: "RM 500/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Classic pinball machine",
-  },
-  {
-    id: 10,
-    name: "Racing Simulator",
-    category: "Arcade Games",
-    capacity: "1 player",
-    setupTime: "45 minutes",
-    price: "RM 800/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Full racing simulator with wheel and pedals",
-  },
-
-  // Outdoor Games
-  {
-    id: 11,
-    name: "Inflatable Soccer Darts",
-    category: "Outdoor Games",
-    capacity: "Unlimited",
-    setupTime: "30 minutes",
-    price: "RM 350/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Velcro soccer ball dart game",
-  },
-  {
-    id: 12,
-    name: "Giant Inflatable Bowling",
-    category: "Outdoor Games",
-    capacity: "Unlimited",
-    setupTime: "20 minutes",
-    price: "RM 280/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Oversized inflatable bowling set",
-  },
-  {
-    id: 13,
-    name: "Bubble Soccer Set (10 suits)",
-    category: "Outdoor Games",
-    capacity: "10 players",
-    setupTime: "45 minutes",
-    price: "RM 1,200/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Complete bubble soccer equipment",
-  },
-  {
-    id: 14,
-    name: "Human Foosball Arena",
-    category: "Outdoor Games",
-    capacity: "10-12 players",
-    setupTime: "60 minutes",
-    price: "RM 1,500/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Full human foosball setup",
-  },
-  {
-    id: 15,
-    name: "Inflatable Obstacle Course",
-    category: "Outdoor Games",
-    capacity: "Unlimited",
-    setupTime: "90 minutes",
-    price: "RM 2,000/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Large inflatable obstacle course",
-  },
-
-  // VR & Tech Games
-  {
-    id: 16,
-    name: "VR Gaming Station",
-    category: "VR & Tech Games",
-    capacity: "1 player",
-    setupTime: "30 minutes",
-    price: "RM 600/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Complete VR headset and gaming setup",
-  },
-  {
-    id: 17,
-    name: "PlayStation 5 Gaming Console",
-    category: "VR & Tech Games",
-    capacity: "1-4 players",
-    setupTime: "20 minutes",
-    price: "RM 400/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Latest PS5 with controllers and games",
-  },
-  {
-    id: 18,
-    name: "Xbox Series X Console",
-    category: "VR & Tech Games",
-    capacity: "1-4 players",
-    setupTime: "20 minutes",
-    price: "RM 400/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Xbox Series X with controllers and games",
-  },
-  {
-    id: 19,
-    name: "Nintendo Switch Setup",
-    category: "VR & Tech Games",
-    capacity: "1-4 players",
-    setupTime: "15 minutes",
-    price: "RM 300/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Nintendo Switch with popular games",
-  },
-  {
-    id: 20,
-    name: "Gaming Projector Setup",
-    category: "VR & Tech Games",
-    capacity: "Unlimited viewers",
-    setupTime: "40 minutes",
-    price: "RM 500/day",
-    image: "/placeholder-equipment.jpg",
-    description: "High-definition gaming projector with screen",
-  },
-
-  // Party Games
-  {
-    id: 21,
-    name: "Karaoke Machine",
-    category: "Party Games",
-    capacity: "Unlimited",
-    setupTime: "25 minutes",
-    price: "RM 350/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Professional karaoke system with microphones",
-  },
-  {
-    id: 22,
-    name: "Photo Booth Package",
-    category: "Party Games",
-    capacity: "Unlimited",
-    setupTime: "45 minutes",
-    price: "RM 800/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Complete photo booth with props and printer",
-  },
-  {
-    id: 23,
-    name: "Dart Board Electronic",
-    category: "Party Games",
-    capacity: "1-8 players",
-    setupTime: "15 minutes",
-    price: "RM 200/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Electronic scoring dart board",
-  },
-  {
-    id: 24,
-    name: "Casino Table Set",
-    category: "Party Games",
-    capacity: "6-10 players",
-    setupTime: "30 minutes",
-    price: "RM 600/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Blackjack and poker tables with chips",
-  },
-  {
-    id: 25,
-    name: "Mechanical Bull",
-    category: "Party Games",
-    capacity: "1 player at a time",
-    setupTime: "60 minutes",
-    price: "RM 1,800/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Mechanical bull with safety mat",
-  },
-
-  // Team Building Games
-  {
-    id: 26,
-    name: "Human Claw Machine",
-    category: "Team Building",
-    capacity: "1 player at a time",
-    setupTime: "40 minutes",
-    price: "RM 900/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Life-size claw machine experience",
-  },
-  {
-    id: 27,
-    name: "Escape Room Kit",
-    category: "Team Building",
-    capacity: "4-8 players",
-    setupTime: "90 minutes",
-    price: "RM 1,200/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Portable escape room puzzle set",
-  },
-  {
-    id: 28,
-    name: "Laser Tag Set (20 guns)",
-    category: "Team Building",
-    capacity: "20 players",
-    setupTime: "45 minutes",
-    price: "RM 1,500/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Complete laser tag equipment",
-  },
-  {
-    id: 29,
-    name: "Giant Board Games Bundle",
-    category: "Team Building",
-    capacity: "Variable",
-    setupTime: "20 minutes",
-    price: "RM 400/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Collection of oversized board games",
-  },
-  {
-    id: 30,
-    name: "Tug of War Rope",
-    category: "Team Building",
-    capacity: "10-20 players",
-    setupTime: "5 minutes",
-    price: "RM 100/day",
-    image: "/placeholder-equipment.jpg",
-    description: "Professional tug of war rope",
+    name: "Plinko Game",
+    category: "Carnival Games",
+    description: "Drop-the-disc game with exciting prize slots at the bottom",
   },
 ];
 
@@ -324,12 +74,10 @@ export default function EquipmentPage() {
 
   const categories = [
     "All",
-    "Interactive Games",
-    "Arcade Games",
-    "Outdoor Games",
-    "VR & Tech Games",
-    "Party Games",
-    "Team Building",
+    "Arcade & Vending",
+    "Food & Beverage",
+    "Carnival Games",
+    "Interactive",
   ];
 
   const filteredEquipment = equipmentInventory.filter((item) => {
@@ -471,52 +219,15 @@ export default function EquipmentPage() {
                     <h3 className="font-bold text-sm mb-2 text-accent group-hover:text-gray-900 transition-colors">
                       {item.name}
                     </h3>
-                    <p className="text-xs text-textGray mb-3 line-clamp-2">
+                    <p className="text-xs text-textGray mb-3">
                       {item.description}
                     </p>
-                    <div className="space-y-1 mb-3">
-                      <p className="text-xs text-textGray flex items-center">
-                        <svg
-                          className="w-3 h-3 mr-1"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
-                          />
-                        </svg>
-                        {item.capacity}
-                      </p>
-                      <p className="text-xs text-textGray flex items-center">
-                        <svg
-                          className="w-3 h-3 mr-1"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                          />
-                        </svg>
-                        Setup: {item.setupTime}
-                      </p>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-accent font-bold text-sm">
-                        {item.price}
-                      </span>
+                    <div className="flex items-center justify-end">
                       <Link
                         href="/contact"
                         className="text-xs bg-accent text-white px-3 py-1.5 rounded hover:bg-gray-800 transition-colors"
                       >
-                        Book Now
+                        Inquire
                       </Link>
                     </div>
                   </div>
@@ -559,7 +270,7 @@ export default function EquipmentPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Birthday Party Package: Games + Photo Booth</span>
+                    <span>Carnival Package: Claw machine + games + photobooth</span>
                   </li>
                   <li className="flex items-start text-sm">
                     <svg
@@ -575,7 +286,7 @@ export default function EquipmentPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Corporate Event Package: Mix of team building games</span>
+                    <span>Food Fun Package: Candy floss + popcorn + ice cream</span>
                   </li>
                   <li className="flex items-start text-sm">
                     <svg
@@ -591,7 +302,7 @@ export default function EquipmentPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Festival Package: Multiple outdoor games</span>
+                    <span>Festival Package: All games + food machines</span>
                   </li>
                   <li className="flex items-start text-sm">
                     <svg
@@ -607,7 +318,7 @@ export default function EquipmentPage() {
                         d="M5 13l4 4L19 7"
                       />
                     </svg>
-                    <span>Gaming Lounge Package: All gaming consoles</span>
+                    <span>Custom Packages: Mix and match your favorites</span>
                   </li>
                 </ul>
                 <Link
